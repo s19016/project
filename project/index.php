@@ -36,7 +36,7 @@ $result = UserLogic::checkLogin();
       <!-- /.header-logo -->
       <nav class="top-header-nav">
         <ul class="top-nav-list">
-          <li class="top-list-item"><a class="item-btn" href="search.html">検索</a></li>
+          <li class="top-list-item"><a class="item-btn" href="search.php">検索</a></li>
           <!-- /.list-item -->
           <li class="top-list-item"><a class="item-btn" href="post.php">投稿</a></li>
           <!-- /.list-item -->
