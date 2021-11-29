@@ -1,0 +1,46 @@
+.main {
+    width: 100%;
+    &-visual {
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        &-wrapper {
+            max-width: 900px;
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            padding: 0 70px;
+            align-items: flex-start;
+            font-family: "Noto Sans JP", sans-serif;
+            flex-direction: column;
+            justify-content: center;
+            .main-visual-title {
+                color: #eee;
+                font-size: 22px;
+                letter-spacing: 2px;
+            }
+            .main-visual-text {
+                color: #eee;
+                font-size: 25px;
+                margin: 30px 0 100px 0;
+            }
+            .main-visual-btn {
+                color: #eee;
+                font-size: 20px;
+                padding: 10px 20px;
+                border: 2px solid #fff;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: all 0.4s;
+                &:hover {
+                    color: #111;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}
