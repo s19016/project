@@ -1,0 +1,122 @@
+.mypage-wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: #ddd;
+    .acount-inner {
+        max-width: 950px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 150px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        .left-container {
+            max-width: 300px;
+            width: 100%;
+            margin: 20px 15px;
+            display: flex;
+            flex-direction: column;
+        }
+        .middle-container {
+            max-width: 250px;
+            width: 100%;
+            margin: 20px 15px;
+            display: flex;
+            flex-direction: column;
+        }
+        .right-container {
+            max-width: 300px;
+            width: 100%;
+            margin: 20px 15px;
+            display: flex;
+            flex-direction: column;
+        }
+        .acount-data {
+            width: 100%;
+            color: #fff;
+            background-color: #5a5a5a;
+            border-radius: 7px;
+            &-icon {
+                width: 160px;
+                height: 160px;
+                margin: 40px auto;
+                border-radius: 50%;
+                background-size: cover;
+                background-position: center;
+                border: 3px solid #ddd;
+            }
+            &-text {
+                max-width: 250px;
+                width: 100%;
+                margin: 0 auto 10px auto;
+                padding: 0 10px;
+                text-align: center;
+                &-name {
+                    font-size: 23px;
+                    font-family: 游ゴシック;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                }
+                &-intro {
+                    font-size: 15px;
+                    margin-bottom: 20px;
+                }
+                &-details {
+                    font-family: "icomoon";
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    li {
+                        max-width: 90px;
+                        width: 100%;
+                        font-weight: bold;
+                        text-align: left;
+                    }
+                    .title {
+                        height: 30px;
+                        font-size: 18px;
+                    }
+                    .age {
+                        border-bottom: 2px solid orange;
+                    }
+                    .good {
+                        border-bottom: 2px solid #11acbc;
+                    }
+                }
+            }
+            &-title {
+                font-size: 22px;
+                padding: 10px 0;
+                font-family: "icomoon";
+                font-weight: bold;
+                text-align: center;
+                background-color: #11acbc;
+                border-radius: 5px 5px 0 0;
+            }
+            &-list {
+                background-color: #5a5a5a;
+                border-radius: 0 0 5px 5px;
+                li {
+                    font-size: 15px;
+                    font-weight: bold;
+                    padding: 15px 0 15px 10px;
+                    transition: all 0.1s;
+                    &:hover {
+                        opacity: 0.8;
+                        border-bottom: 2px solid #11acbc;
+                        transform: translateY(2px);
+                    }
+                }
+            }
+        }
+    }
+}
+.logout-form {
+    background-color: #ddd;
+    text-align: center;
+    input {
+        margin-right: 20px;
+    }
+    a {
+    }
+}
